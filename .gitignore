@@ -1,0 +1,37 @@
+# Game data and binaries — never commit. These are inputs, not knowledge.
+*.mpk
+*.mpkdb
+*.bndb
+*.exe
+*.pak
+
+# Note: *.mpkinfo is game data, but ksy/mpkinfo.ksy (the spec) is tracked.
+*.mpkinfo
+
+# Extracts and generated output
+res/
+*_dump/
+lua_dump*/
+*_carved/
+static_dump/
+dump.json
+*.sqlite
+*.sqlite3
+*.tsv
+
+# Carved payloads / bytecode
+*.luac
+*.bin
+luac.out
+
+# Python
+.venv/
+__pycache__/
+*.py[co]
+*.egg-info/
+build/
+dist/
+wheels/
+
+# OS
+.DS_Store
