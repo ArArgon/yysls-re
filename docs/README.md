@@ -20,6 +20,8 @@ After that, read what your task needs:
 - **[content-hash.md](content-hash.md)** — to verify an extraction is correct.
 - **[lua-bytecode.md](lua-bytecode.md)** — for scripts: the LZ4 wrapper, the Lua
   5.4 chunk, and the custom opcode table.
+- **[texture.md](texture.md)** — the `02 02 02 01` texture container: header, per-mip
+  EZST blocks, pixel formats, DDS/PNG conversion.
 - **[hd-store.md](hd-store.md)** — the separate `HD/` container family, and the
   best untapped source of cleartext paths.
 - **[path-mapping-table.md](path-mapping-table.md)** — the main unsolved area.
@@ -35,6 +37,7 @@ After that, read what your task needs:
 | What is this 64-bit number? | [file-id.md](file-id.md) |
 | Can I recover the filename? | [vfs-model.md](vfs-model.md) §7, then [hd-store.md](hd-store.md) §6 |
 | Why does `offset + size` exceed the file size? | [ezst.md](ezst.md) §1 |
+| How do I view a texture? | [texture.md](texture.md) |
 | Did my extraction work? | [content-hash.md](content-hash.md) §5 |
 | Why is my Lua disassembly nonsense? | [lua-bytecode.md](lua-bytecode.md) §5 |
 | Where did this address in an old note go? | [methodology.md](methodology.md) §1 |
